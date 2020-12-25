@@ -1,0 +1,17 @@
+.vertical {
+	writing-mode: vertical-rl;
+}
+
+/* for TABLET, MOBILE */
+@media screen and (max-width: 768px) {
+	.card:nth-of-type(2n) .blankbox {
+		height: 150px;
+	}
+}
+
+/* for PC */
+@media screen and (min-width: 769px) {
+	.card:nth-of-type(3n + 2) .blankbox {
+		height: 150px;
+	}
+}
